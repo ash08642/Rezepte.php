@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1060;
+    min-height: 100vh;
+}
+.headd{
+    color: aliceblue;
+}
+nav{ /*für die Navigationsleiste*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20px;
+    background-color: rgba(255, 255, 255, 0.705);
+    margin-bottom: 20px;
+}
+.logo{
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.logo a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav-links{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    
+    list-style: none;
+    padding: 10px;
+}
+.nav-links a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-links a:hover{
+    color: rgb(165, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.add-form{ /*für die Gericht hinzufügen form*/
+    margin: auto;
+    border: 2px solid;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.646);
+    border-radius: 10px;
+}
+.form-input{
+    margin: 10px;
+    padding: 3px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+    border-style:double;
+    border-color: #000000;
+    outline: none;
+    margin-bottom: 20px;
+}
+.radio-input{
+    display: none;
+}
+
+.form-label{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    margin: 10px;
+}
+.submit{
+    background-color: rgba(255, 0, 0, 0.301);
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 5px;
+}
+.cat{
+    margin: 7px;
+}
+.cat label{
+    font-size: 17px;
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px;
+    border-style: double;
+    border-color: #000000;
+}
+#breakfast1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#snack1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#dinner1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#dessert1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#other1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#minutes1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#hours1:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+#minutes1{
+    font-size: 17px;
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px;
+    border-style: double;
+    border-color: #000000;
+}
+#hours1{
+    font-size: 17px;
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px;
+    border-style: double;
+    border-color: #000000;
+}
+.recepies{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.696);
+    min-width: 200px;
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    border-radius: 20px;
+    border-color: brown;
+    border-style:outset;
+    border-width: 10px;
+}
+.title{
+    text-transform: uppercase;
+}
+.weiter{
+    margin-top: 7px;
+}
+.more{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.301);
+    color: aliceblue;
+    padding: 3px 50px 3px 50px;
+    border-radius: 5px;
+    border-style: dashed;
+}
+.more:hover{
+    background-color: aliceblue;
+    color: black;
+}
+h2{/*fur die details*/
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.info{
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 10px;
+    color: rgb(250, 235, 215);
+}
+.delete input{
+    background-color: rgba(255, 0, 0, 0.301);
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.para{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.paraContent{
+    width: fit-content ;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.614);
+}
+.dTitle{
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 10px;
+    border-radius: 100px;
+    max-width: fit-content;
+}
+.lists{
+    float: left;
+    text-decoration: none;
+    margin: 5px;
+    list-style: none;
+}
+.zutat{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: rgba(240, 248, 255, 0.71);
+    border-radius: 25px;
+    max-width:fit-content;
+    padding-bottom: 35px;
+}
+.ingred{
+    margin:8px;
+    padding: 5px;
+    border-radius: 20px;
+    color: #000000;
+}
+.zeit{
+    background-color: rgba(255, 255, 255, 0.648);
+    max-width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.increment input{
+    margin-left: 15%;
+    padding: 7px;
+    float:left;
+    font-size: 17px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(44, 252, 99);
+}
+.decrement input{
+    padding: 7px;
+    font-size: 17px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(252, 79, 44);
+}
+
+.errors{
+    color: #ff0000;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ffffffc8;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 90%;
+    min-width: 70%;
+}
+.containercenter{
+    display: none;
+}
+footer{/*fur das footer*/
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: sticky;
+    font-size: 20px;
+    top: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+}
+.name{
+    padding: 2px;
+}
+.mail{
+    padding: 2px;
+}
+.number{
+    padding: 2px;
+}
+.personal{
+    text-align: center;
+    width: 50%;
+}
+.extras{
+    text-align: center;
+    width: 50%;
+    margin-top: 1%;
+}
+.extras p{
+    height: 40%;
+    text-decoration: none;
+}
+.footlink{
+    text-decoration: none;
+    color: aliceblue;
+}
